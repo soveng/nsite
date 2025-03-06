@@ -1,9 +1,9 @@
 {
   "privateKey": "--------brrrrrrooooooo, please put this in an .env file or something",
   "relays": [
+    "wss://haven.sovereignengineering.io",
     "wss://relay.damus.io",
-    "wss://relay.einundzwanzig.space",
-    "wss://haven.sovereignengineering.io"
+    "wss://relay.einundzwanzig.space"
   ],
   "servers": [
     "https://haven.sovereignengineering.io",
