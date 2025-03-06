@@ -1,0 +1,23 @@
+name: Run NPX Package
+
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  run-npx:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4  # Checks out your repo
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20  # Set the Node.js version
+
+      - name: Run NPX Command
+        run: npx -y nsite-cli upload www --verbose --purge --privatekey ${{ secrets.NSITE_KEY }}  

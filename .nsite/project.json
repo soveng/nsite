@@ -1,0 +1,16 @@
+{
+  "privateKey": "f30680be90b59f443f81c0b702ea103730feba3c5573fc738005275f019d9c7e",
+  "relays": [
+    "wss://relay.damus.io"
+  ],
+  "servers": [
+    "https://cdn.nostrcheck.me"
+  ],
+  "profile": {
+    "name": "nsite",
+    "about": "nsite init template"
+  },
+  "publishProfile": false,
+  "publishServerList": false,
+  "publishRelayList": false
+}
